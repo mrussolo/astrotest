@@ -9,9 +9,3 @@ export async function GET(context) {
     customData: `<language>pt-br</language>`,
   });
 }
-
-import { defineConfig } from "astro/config";
-
-export default defineConfig({
-  site: "https://example.com"
-});
